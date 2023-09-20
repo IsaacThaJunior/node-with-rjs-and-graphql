@@ -22,6 +22,8 @@ router.get("/cart", getCart);
 
 router.post("/cart", postCart)
 
+router.post("/cart-delete/item", postCart)
+
 // handling dynamic data
 router.get("/products/:productId", getProduct);
 
